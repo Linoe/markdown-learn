@@ -1,0 +1,26 @@
+# Android_View ui 元件
+
+`ui` 中包含的元件
+
+## 引用庫
+
+```js
+dependencies {
+    implementation(platform("androidx.compose:compose-bom:2023.03.00"))
+    implementation("androidx.compose.ui:ui")
+}
+```
+
+## Dialog 視窗
+
+`Dialog` 內容空白的布局的對話框
+```js
+/*
+onDismissRequest - 試圖取消對話框時監聽
+properties - DialogProperties 定義此對話的行為?
+*/
+Dialog(
+    onDismissRequest = {},
+    propertiesalogProperties = DialogProperties()
+) { ... }
+```
