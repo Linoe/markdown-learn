@@ -28,3 +28,18 @@ Git 裸存儲庫是只保存版本紀錄 不會保留其工作目錄內的檔案
    > git push origin master
 4. commit 完成後 將本地分支(`master`) 上傳到 遠程儲存庫(`origin`)
    > git pull origin master
+
+## Git 錯誤
+### Git 使用者權限
+
+出現以下錯誤訊息 可能原因是電腦使用者不同 Git 不允許修改
+```
+fatal: detected dubious ownership in repository at
+...
+but the current user is:
+...
+To add an exception for this directory, call:
+```
+
+可以輸入以下指令 Git 強制允許所有資料夾
+> git config --global --add safe.directory "*"
