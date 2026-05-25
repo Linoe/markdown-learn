@@ -64,3 +64,5 @@ public class PlayerMovement : MonoBehaviour { }
 - 可擴展性:您可以更輕鬆地從小型類別繼承功能。修改或替換這些類別時,也不必擔心會破壞原有的功能。
 
 - 可重用性:將類別設計得簡潔且模組化,如此才能將其重用於遊戲的其他部分。
+
+![圖片1](./img/SOLID_SRP1.webp)

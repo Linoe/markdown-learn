@@ -114,3 +114,6 @@ public class Light : MonoBehaviour, ISwitchable
 - 理想情況下,應盡量減少類之間的依賴關係。每個類的各個組成部分也應能夠協同工作,而非依賴於與外部的連接。當一個對象能夠通過其內部的邏輯來正常運作時,就說它具有內聚性。
 
 - 在理想的情況下,應該追求軟件組件的鬆散耦合與高內聚性。
+
+![圖片1](./img/SOLID_DIP1.webp)
+![圖片2](./img/SOLID_DIP2.webp)

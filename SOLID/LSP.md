@@ -84,3 +84,6 @@ public class Train : RailVehicle { }
 - 各種功能都是透過介面來實現的,而非透過繼承。
 
 - 雖然可以讓 RoadVehicle 和 RailVehicle 都繼承自同一個基類,但在這種情況下,其實並沒有太大的必要這樣做。
+
+![圖片1](./img/SOLID_LSP1.webp)
+![圖片2](./img/SOLID_LSP2.webp)

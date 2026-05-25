@@ -79,3 +79,5 @@ public class Circle : Shape
 - 這個新設計讓除錯變得更加簡單。如果某個新形狀導致了錯誤,你不必再重新檢查 AreaCalculator 的代碼。
 
 - 舊代碼保持不變,因此你只需檢查新代碼中的邏輯錯誤即可。
+
+![圖片1](./img/SOLID_OCP1.webp)

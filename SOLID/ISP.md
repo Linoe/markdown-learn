@@ -83,3 +83,5 @@ public class EnemyUnit : IDamageable, IMovable, IUnitStats { }
 ## 其他判斷
 
 - 將其拆分成幾個較小的界面,而非製作一個包含太多方法的界面來管理那些可拆分的屬性。如此一來,實現這些功能的類就能夠只使用自己所需要的功能了。
+
+![圖片1](./img/SOLID_ISP1.webp)
